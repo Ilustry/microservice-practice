@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: microservice
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+microservice:
+  greeting: "Hola"
+  default-value: "Mundo"
